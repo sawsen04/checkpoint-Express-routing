@@ -1,0 +1,65 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/contactus.css" />
+    <title>contact us</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul>
+        <li><img
+            src="https://gomycode.com/tn/wp-content/uploads/sites/26/2023/07/Artboard-26-2.png"
+            alt=""
+            width="150"
+          /></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/ourservices">Our services</a></li>
+        <li><a href="/contactus">Contact us</a></li>
+      </ul>
+    </nav>
+    <h3>Contact Us</h3>
+    <div class="container">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input
+          type="text"
+          id="fname"
+          name="firstname"
+          placeholder="Your name.."
+        />
+        <label for="lname">Last Name</label>
+        <input
+          type="text"
+          id="lname"
+          name="lastname"
+          placeholder="Your last name.."
+        />
+        <label for="country">HackerSpace</label>
+        <select id="country" name="country">
+          <option value="bardo">Bardo</option>
+          <option value="centre ville">Centre Ville</option>
+          <option value="ettahrir">Ettahrir</option>
+          <option value="lac1">Lac 1</option>
+          <option value="menzah 5">Menzah 5</option>
+          <option value="el mourouj">El Mourouj</option>
+          <option value="el ghazela">El Ghazala</option>
+          <option value="boumhel">Boumhel</option>
+          <option value="nabeul">Nabeul</option>
+          <option value="sousse">Sousse</option>
+          <option value="sfax">Sfax</option>
+          <option value="gabes">Gabes</option>
+          <option value="tataouine">Tataouine</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea
+          id="subject"
+          name="subject"
+          placeholder="Write something.."
+          style="height: 200px"
+        ></textarea>
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+  </body>
+</html>

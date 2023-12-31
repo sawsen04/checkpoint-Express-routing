@@ -1,0 +1,19 @@
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  height: 70px;
+}
+.navbar {
+  background-color: rgb(255, 250, 243);
+}
+li a {
+  color: black;
+}
+.home {
+  min-height: 100vh;
+ 
+  background-image: url("https://gomycode.com/tn/wp-content/uploads/sites/26/2020/06/group-of-teens-illustration-1.jpg");
+
+}
